@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a121cdd7-1c03-4999-9539-bfc9fe83d33e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a121cdd7-1c03-4999-9539-bfc9fe83d33e" name="Default Changelist" comment="Написал ХУЁБЛИК">
+      <change beforePath="$PROJECT_DIR$/dz_1/01_jorney_begin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dz_1/01_jorney_begin.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +82,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Написал ХУЁБЛИК" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="52" width="954" height="935" key="CommitChangelistDialog2" timestamp="1581688759845">
+    <state x="524" y="52" width="954" height="935" key="CommitChangelistDialog2" timestamp="1581692118864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="524" y="52" width="954" height="935" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581688759845" />
+    <state x="524" y="52" width="954" height="935" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581692118864" />
     <state x="225" y="84" key="DiffContextDialog" timestamp="1581688748261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
