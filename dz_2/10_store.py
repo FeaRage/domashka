@@ -50,57 +50,7 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
 # TODO здесь ваш код
-Стол
-stol_code=goods['Стол']
-stol_item1=store[stol_code][0]
-stol_item2=store[stol_code][1]
-stol_quantity=stol_item1['quantity']+stol_item2['quantity']
-stol_price=stol_item1['price']+stol_item2['price']
-stol_cost=stol_price*stol_quantity
-stol='Стол -', stol_quantity, 'шт, стоимость', stol_cost, 'руб'
-print(stol)
-или
-stol_cost1 = store[goods['Стол']][0]['quantity'] * store[goods['Стол']][0]['price']
-stol_cost2 = store[goods['Стол']][1]['quantity'] * store[goods['Стол']][1]['price']
-stol_cost3 = stol_cost1+stol_cost2
 
-Диван
-divan_code=goods['Диван']
-divan_item1=store[divan_code][0]
-divan_item2=store[divan_code][1]
-divan_quantity=divan_item1['quantity']+divan_item2['quantity']
-divan_price=divan_item1['price']+divan_item2['price']
-divan_coast=divan_quantity*divan_price
-divan=('Диван -', divan_quantity, 'шт, стоимость', divan_cost, 'руб')
-print(divan)
-или
-divan_cost1=store[goods['Диван']][0]['quantity']*store[goods['Диван']][0]['quantity']
-divan_cost2=store[goods['Диван']][1]['quantity']*store[goods['Диван']][1]['quantity']
-divan_cost3=divan_cost1+divan_cost2
-
-
-Стул
-stul_code=goods['Стул']
-stul_item0=store[stul_code][0]
-stul_item1=store[stul_code][1]
-stul_item2=store[stul_code][2]
-stul_quantity=stul_item0['quantity']+stul_item1['quantity']+stul_item2['quantity']
-stul_price=stul_item0['price']+stul_item1['price']+stul_item2['price']
-stul_cost=stul_quantity*stul_price
-stul=('Стул -', stul_quantity, 'шт, стоимость', stul_cost, 'руб')
-print(stul)
-или
-stul_cost1=store[goods['Стул']][0]['quantity']*store[goods['Стул']][0]['price']
-stul_cost2=store[goods['Стул']][1]['quantity']*store[goods['Стул']][1]['price']
-stul_cost3=store[goods['Стул']][2]['quantity']*store[goods['Стул']][2]['price']
-stul_cost=stul_cost1+stul_cost2+stul_cost3
-stul_quantity=store[goods['Стул']][0]['quantity']
-stul_quantity1=store[goods['Стул']][1]['quantity']
-stul_quantity2=store[goods['Стул']][2]['quantity']
-stul_quantity33=stul_quantity+stul_quantity1+stul_quantity2
-stul=('Стульчик -', stul_quantity33, 'шт, стоимость', stul_cost, 'руб')
-print(stul)
-('Стульчик -', 153, 'шт, стоимость', 10311, 'руб')
 
 ##########################################################################################
 # ВНИМАНИЕ! После того как __ВСЯ__ домашняя работа сделана и запушена на сервер,         #

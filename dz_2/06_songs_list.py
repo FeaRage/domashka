@@ -21,11 +21,7 @@ violator_songs_list = [
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
 # TODO здесь ваш код
-halo=violator_songs_list[3][1]
-enjoy=violator_songs_list[5][1]
-clean=violator_songs_list[-1][1]
-s1=halo+enjoy+clean
-s2=('Три песни звучат ') + str(s1.__round__(2)) + (' минут')
+
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
     'World in My Eyes': 4.76,
