@@ -49,3 +49,36 @@ sweets = {
     ...:         {'shop': 'магнит', 'price': 30.99}]}
 
 ##я не ебу, что этот долбаёб хочет...
+shops = {
+    'ашан': [
+        {'name': 'печенье', 'price': 10.99},
+        {'name': 'конфеты', 'price': 34.99},
+        {'name': 'карамель', 'price': 45.99},
+        {'name': 'пирожное', 'price': 67.99}
+    ],
+    'пятерочка': [
+        {'name': 'печенье', 'price': 9.99},
+        {'name': 'конфеты', 'price': 32.99},
+        {'name': 'карамель', 'price': 46.99},
+        {'name': 'пирожное', 'price': 59.99}
+    ],
+    'магнит': [
+        {'name': 'печенье', 'price': 11.99},
+        {'name': 'конфеты', 'price': 30.99},
+        {'name': 'карамель', 'price': 41.99},
+        {'name': 'пирожное', 'price': 62.99}
+    ],
+}
+
+def new_dict(shops):
+    if not shops:
+        return None
+
+    sweets = {item['name']: [] for item in list(shops.values())[0]}
+    for shop_name, items in shops.items():
+        for item in items:
+            sweets[item['name']].append({'shop': shop_name, 'price': item['price']})
+
+    return sweets
+
+new_dict(shops)
