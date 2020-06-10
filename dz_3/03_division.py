@@ -11,3 +11,11 @@
 a, b = 179, 37
 
 # TODO здесь ваш код
+
+educational_grant, expenses, еducational_g = 10000, 12000, 0
+i = 1
+while i < 11:
+    еducational_g += expenses - educational_grant
+    expenses = expenses * 1.03
+    i += 1
+print (еducational_g)

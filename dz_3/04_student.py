@@ -12,3 +12,13 @@
 educational_grant, expenses = 10000, 12000
 
 # TODO здесь ваш код
+
+educational_grant, expenses, еducational_g = 10000, 12000, 0
+i = 1
+while i < 11:
+    еducational_g += expenses - educational_grant
+    expenses = expenses * 1.03
+    i += 1
+s3=('Студенту нужно попросить ')+str(round(еducational_g, 2)) +(' рублей')
+print(s3)
+
