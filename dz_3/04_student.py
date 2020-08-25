@@ -21,4 +21,3 @@ while i < 11:
     i += 1
 s3=('Студенту нужно попросить ')+str(round(еducational_g, 2)) +(' рублей')
 print(s3)
-
